@@ -1,1 +1,114 @@
+/* Location Page */
 
+.location-banner {
+    background-color: #26382f;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.location-banner h1 {
+    font-size: 36px;
+}
+
+.location-info {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    padding: 40px;
+}
+
+.location-info div {
+    flex: 1;
+}
+
+.location-info img {
+    width: 45%;
+    border-radius: 10px;
+}
+
+.opening-hours {
+    background-color: #f3f0e9;
+    padding: 40px;
+    text-align: center;
+}
+
+.opening-hours table {
+    width: 70%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.opening-hours th,
+.opening-hours td {
+    padding: 15px;
+    border: 1px solid #ccc;
+}
+
+.opening-hours th {
+    background-color: #26382f;
+    color: white;
+}
+
+.directions {
+    padding: 40px;
+    text-align: center;
+}
+
+.direction-cards {
+    display: flex;
+    gap: 20px;
+}
+
+.direction-cards div {
+    flex: 1;
+    background-color: #f3f0e9;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.direction-cards div:hover {
+    transform: translateY(-5px);
+}
+
+.map {
+    background-color: #f3f0e9;
+    text-align: center;
+    padding: 40px;
+}
+
+.map a {
+    display: inline-block;
+    background-color: #26382f;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.map a:hover {
+    background-color: #526b5b;
+}
+
+/* Mobile Design */
+
+@media screen and (max-width: 768px) {
+
+    .location-info {
+        flex-direction: column;
+    }
+
+    .location-info img {
+        width: 100%;
+    }
+
+    .direction-cards {
+        flex-direction: column;
+    }
+
+    .opening-hours table {
+        width: 100%;
+    }
+
+}
