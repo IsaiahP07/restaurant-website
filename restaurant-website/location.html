@@ -5,17 +5,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Location - Cactus Club Cafe</title>
+    <title>Location</title>
 
+    <!-- External CSS stylesheet -->
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
 
     <!-- Header and Navigation -->
-    <header>
-        <nav>
-            <h2>CACTUS CLUB CAFE</h2>
+    <header class="site-header">
+
+        <nav class="navbar">
+
+            <h2 class="restaurant-name"></h2>
 
             <ul>
                 <li><a href="index.html">Home</a></li>
@@ -23,74 +26,128 @@
                 <li><a href="chef.html">Our Chef</a></li>
                 <li><a href="location.html">Location</a></li>
             </ul>
+
         </nav>
+
     </header>
 
     <main>
 
-        <!-- Welcome Section -->
+        <!-- Welcome Banner -->
         <section class="location-banner">
-            <h1>Visit Cactus Club Cafe</h1>
-            <p>Enjoy great food and beautiful waterfront views
-                at our Coal Harbour location.</p>
+
+            <div class="banner-content">
+
+                <p class="small-heading">VISIT US IN VANCOUVER</p>
+
+                <h1>We Look Forward to Welcoming You</h1>
+
+                <p>
+                    Discover a memorable dining experience
+                    in the heart of Vancouver.
+                </p>
+
+            </div>
+
         </section>
 
         <!-- Restaurant Information -->
         <section class="location-info">
 
-            <div>
-                <h2>Find Our Restaurant</h2>
+            <div class="location-text">
+
+                <p class="small-heading">OUR LOCATION</p>
+
+                <h2>Find Us</h2>
 
                 <p>
-                    Our Coal Harbour restaurant is located
-                    near Canada Place in downtown Vancouver.
-                    Enjoy delicious food and beautiful views
-                    of the waterfront.
+                    Located in the beautiful Coal Harbour
+                    neighbourhood of Vancouver, our restaurant
+                    offers a welcoming atmosphere and a
+                    memorable dining experience.
                 </p>
 
-                <h3>Our Address</h3>
-
-                <p>
-                    1085 Canada Place<br>
-                    Vancouver, BC
-                </p>
+                <h3>Address</h3>
 
                 <p>
-                    <strong>Phone:</strong> 778-924-8899
+                    1200 West Cordova Street,
+                    Vancouver, BC, Canada
                 </p>
+
+                <h3>Phone</h3>
+
+                <p>604-000-0000</p>
+
+                <h3>Email</h3>
+
+                <p>info@yourrestaurant.com</p>
 
             </div>
 
-            <img src="images/restaurant-location.jpg"
-                 alt="Cactus Club Cafe Coal Harbour waterfront location">
+            <div class="location-image">
+
+                <img src="images/restaurant-location.jpg"
+                     alt="Restaurant location in Coal Harbour, Vancouver">
+
+            </div>
 
         </section>
 
         <!-- Opening Hours -->
         <section class="opening-hours">
 
+            <p class="small-heading">PLAN YOUR VISIT</p>
+
             <h2>Opening Hours</h2>
 
             <table>
-                <tr>
-                    <th>Day</th>
-                    <th>Opening Hours</th>
-                </tr>
 
-                <tr>
-                    <td>Monday - Thursday</td>
-                    <td>11:00 AM - 12:00 AM</td>
-                </tr>
+                <thead>
+                    <tr>
+                        <th>Day</th>
+                        <th>Opening Hours</th>
+                    </tr>
+                </thead>
 
-                <tr>
-                    <td>Friday - Saturday</td>
-                    <td>11:00 AM - 12:30 AM</td>
-                </tr>
+                <tbody>
 
-                <tr>
-                    <td>Sunday</td>
-                    <td>11:00 AM - 12:00 AM</td>
-                </tr>
+                    <tr>
+                        <td>Monday</td>
+                        <td>11:00 AM – 10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Tuesday</td>
+                        <td>11:00 AM – 10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Wednesday</td>
+                        <td>11:00 AM – 10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Thursday</td>
+                        <td>11:00 AM – 10:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Friday</td>
+                        <td>11:00 AM – 11:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Saturday</td>
+                        <td>12:00 PM – 11:00 PM</td>
+                    </tr>
+
+                    <tr>
+                        <td>Sunday</td>
+                        <td>12:00 PM – 10:00 PM</td>
+                    </tr>
+
+                </tbody>
+
             </table>
 
         </section>
@@ -98,49 +155,72 @@
         <!-- Directions -->
         <section class="directions">
 
-            <h2>How to Get Here</h2>
+            <p class="small-heading">GETTING HERE</p>
+
+            <h2>How to Find Us</h2>
 
             <div class="direction-cards">
 
-                <div>
-                    <h3>By SkyTrain</h3>
-                    <p>
-                        Take the SkyTrain to Waterfront Station.
-                        From there, walk towards Canada Place.
-                    </p>
-                </div>
+                <article class="direction-card">
 
-                <div>
+                    <h3>By Public Transit</h3>
+
+                    <p>
+                        Waterfront Station is within walking
+                        distance. Visitors can also use nearby
+                        bus routes to reach Coal Harbour.
+                    </p>
+
+                </article>
+
+                <article class="direction-card">
+
                     <h3>By Car</h3>
-                    <p>
-                        You can drive to Canada Place.
-                        Paid parking is available nearby.
-                    </p>
-                </div>
 
-                <div>
-                    <h3>By Walking</h3>
                     <p>
-                        Enjoy a walk along the Vancouver
-                        waterfront to reach our restaurant.
+                        Visitors can drive to the Coal Harbour
+                        neighbourhood. Paid parking options
+                        are available in the surrounding area.
                     </p>
-                </div>
+
+                </article>
+
+                <article class="direction-card">
+
+                    <h3>By Walking</h3>
+
+                    <p>
+                        Enjoy a walk through downtown Vancouver
+                        and explore the beautiful waterfront
+                        and nearby Canada Place.
+                    </p>
+
+                </article>
 
             </div>
 
         </section>
 
         <!-- Google Maps -->
-        <section class="map">
+        <section class="map-section">
 
-            <h2>Find Us on Google Maps</h2>
+            <p class="small-heading">COME VISIT US</p>
 
-            <p>We look forward to seeing you!</p>
+            <h2>Find Our Location</h2>
 
-            <a href="https://www.google.com/maps/search/?api=1&query=Cactus+Club+Cafe+Coal+Harbour+Vancouver"
-               target="_blank"
-               rel="noopener noreferrer">
-                View Our Location
+            <p>
+                We look forward to welcoming you.
+                Use Google Maps to find directions.
+            </p>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=1200+West+Cordova+Street+Vancouver+BC"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="map-button">
+
+                View on Google Maps
+
             </a>
 
         </section>
@@ -148,12 +228,19 @@
     </main>
 
     <!-- Footer -->
-    <footer>
-        <h2>CACTUS CLUB CAFE</h2>
-        <p>Great food. Great people. Great experiences.</p>
+    <footer class="site-footer">
+
+        <!-- Add restaurant name later -->
+        <h2></h2>
+
+        <p>Thank you for visiting us.</p>
+
         <p>&copy; 2026 Restaurant Website Project</p>
+
         <p>Created by: Our Team</p>
+
     </footer>
 
 </body>
+
 </html>
